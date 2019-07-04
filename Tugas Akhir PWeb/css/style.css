@@ -1,0 +1,93 @@
+.header{										/* digunakan untuk membuat header yang akan ditampilkan pada html*/
+	background-image: url(../img/hehe.jpg);  	/* digunakan untuk memberikan background, disini background berupa gambar*/
+	background-repeat: no-repeat;				/* disini tidak dilakukan pengulangan background*/
+	background-size:100%;						/* ukuran background 100% */
+	background-position: center;				/* posisi background berada di tengah */
+	height: 220px;								/* tinggi background 220 px*/
+	width: 100%;								/* lebar background 100%*/
+	z-index:-1;									/* z-index digunakan untuk mengatur tumpukan elemen*/
+	font-family: Times New Roman;				/* merupakan jenis font*/
+	text-align: center;							/* membuat teks berada di tengah*/
+
+}
+
+.menubar ul{					/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	background-color: black;	/* digunakan untuk memberi warna background*/
+	width: 98.8%;				/* lebar pada menubar adalah 98.8&*/ 
+	height: 60px;				/* tinggi pada menubar adalah 60px*/
+	margin: 0;					/* margin (pengatur jarak) adalah 0*/
+	padding: 0;					/* padding (ruang diantara konten/border) adalah 0*/
+	overflow: hidden;			/* overflow digunakan saat ada konten yang melebihi part elementnya*/
+	list-style-type: none;
+	position: absolute;
+	z-index:9999;				/* z-index digunakan untuk mengatur tumpukan elemen*/
+	margin-top: -60px;			/* margin top (pengatur jarak) adalah -60px*/
+}
+.menubar li{					/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	float: left;				/* float digunakan untuk mengatur letak element*/
+}
+.menubar li a{					/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	display: block;				
+	text-align: center;			/* membuat posisi text berada di tengah*/
+	padding: 20px 15px;			/* padding (ruang diantara konten/border) adalah 20px 15px*/
+	text-decoration: none;		
+	font-family: Times New Roman; /* jenis font*/
+	color: white;
+	
+}
+
+.menubar li a:hover{				/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	background-color: red;			/* digunakan untuk memberi warna background*/
+}
+.menubar li a:visited{				/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	color: white;					/* digunakan untuk mengatur warna*/
+	z-index:9999;					/* z-index digunakan untuk mengatur tumpukan elemen*/				
+}
+
+
+.menu2{									/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	background-color: #F0FFFF;			/* digunakan untuk memberi warna background*/		
+	opacity: 0.9;						/* digunakan untuk mentransparansikan suatu box atau konten*/
+	width: 100%;						/* lebar pada meenu2 adalah 100*/
+	height: auto;						/* tinggi background adalah auto*/
+	float: left;						/* float digunakan untuk mengatur letak element*/
+	font-family: Times New Roman;		/* jenis font*/
+	
+}
+.menu2 h2{								/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	margin-left: 65px;					/* margin left (pengatur jarak) adalah 65px*/
+	font-family: Times New Roman;		/* jenis font*/
+}
+.menu2 p{								/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	margin-left: 65px;					/* margin top (pengatur jarak) adalah 65px*/
+	font-family: ;						/* jenis font*/
+}
+.profil{								/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	width: 23%;							/* lebar pada profil adalah 100*/
+	height: auto;						/* tinggi background adalah auto*/
+
+}
+.profil img{							/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	margin-left: 0px;					/* margin left (pengatur jarak) adalah 65px*/
+}
+
+.bio{									/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	width: 60%;							/* lebar pada bio adalah 60%*/
+	height: auto;						/* tinggi disini adalah auto*/
+}
+
+.footer{										/* digunakan untuk membuat footer yang akan ditampilkan pada html*/
+	background-image: url(../img/hehe.jpg);		/* digunakan untuk memberikan background, disini background berupa gambar*/
+	opacity: 1;									/* digunakan untuk mentransparansikan suatu box atau konten*/
+	width: 100%;								/* lebar pada footer adalah 100%*/
+	height: 50px;								/* tinggi pada footer adalah 50 px*/
+	bottom: 0px;
+	margin-bottom: 1px;							/* margin bottom (pengatur jarak) adalah 1px*/
+	padding: 0;									/* padding (ruang diantara konten/border) adalah 0*/
+	overflow: hidden;							/* untuk menyembunyikan scroll bar*/ 
+	margin-bottom: -250px;						/* margin bottom (pengatur jarak) adalah -250px*/
+	text-align: center;							/* membuat text ke tengah*/
+	margin-top: 30px;							/* margin top (pengatur jarak) adalah 30px*/
+	color: black;
+	font-family: Times New Roman;				/*jenis font*/
+}

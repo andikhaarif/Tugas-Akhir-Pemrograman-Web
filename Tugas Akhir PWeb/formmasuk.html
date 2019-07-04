@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form Masuk </title>
+	<link rel="stylesheet" type="text/css" href="css/mlscss.css"> <!--style css -->
+</head>
+<body>
+
+ 	<br><br> <!--digunakan untuk memberikan garis baru pada web -->
+ 	 <tr> <!--digunakan untuk membuat kotak pada "selamat datang" -->
+		<td width=350 valign=middle align=center>
+			<font face=verdana size=2 color=#000000><b>
+ 	<center><font color="black"><h1> SELAMAT DATANG! </h1></font></center></b></font></td></tr></div> <!--digunakan untuk membuat tulisan ke tengah -->
+		
+ 	</font></center>
+	<div class="kotak_login">		<!--digunakan untuk membuat form yang isinya akan disubmit dan disimpan dalam .txt -->
+									<!--form ini optional, boleh diisi boleh tidak-->
+		<p class="tulisan_login"> Silahkan Isi Form Dibawah ini </p>
+		<form action="proses.php" method="post" enctype="multipart/form-data">
+		<fieldset>
+
+			<div class="form-group">
+    		<pre><label for="nama" ><font color="black"> Nama </font></label></pre>
+    		<input type="text" name="nama" class="form-control" id="nama">
+  			</div>
+ 
+			<div class="form-group">
+    		<pre><label for="usia" ><font color="black"> Usia </font></label></pre>
+    		<input type="text" name="usia" class="form-control" id="nama">
+  			</div>
+
+			<div class="form-group">
+    		<pre><label for="email" ><font color="black"> Email </font></label></pre>
+    		<input type="text" name="email" class="form-control" id="nama">
+  			</div><br><br>
+ 
+			<input type="submit" class="tombol_login" value="Submit">
+ 
+		</form>
+		
+	</div>
+ 
+ 
+</body>
+</html>

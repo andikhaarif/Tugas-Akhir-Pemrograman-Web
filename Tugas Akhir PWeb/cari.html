@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Halaman Pencarian </title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style1.css"> <!-- Style Css -->
+	<script language="javascript" src="js/javascript.js"></script> <!-- Style Javascript -->
+</head>
+<body>
+
+<div class="header"> <!--digunakan untuk membuat header pada web -->
+	<br><br> <!--digunakan untuk memberikan garis baru pada web -->
+	<marquee width="100%" height ="50%" direction="up" > <!--digunakan untuk membuat teks berjalan -->
+		<center> <!--digunakan untuk membuat tilisan ke tengah -->
+		<font color="black"size="20"> Tugas Akhir Pemrograman Web </font></marquee><br><br></center> <!--digunakan untuk membuat judul diheader -->
+</div>
+
+	<div class="menubar"> <!--digunakan untuk membuat menu bar -->
+		<ul>
+			<li><a href="home.html"><b> Home </b></a></li>
+			<li><a href="author.html"><b> Author </b></a></li>
+			<li><a href="kontak.html"><b> Contact </a></b></li>
+			<li><a href="daftar.php"><b> Pengunjung </a></b></li>
+			<li><a href="kalkulator.html"><b> Kalkulator </a></b></li>
+			<li><a href="cari.html"><b> Pencarian </b></a></li>
+		</ul>
+</div>	
+
+
+<div class="menu2"> <!--digunakan untuk membuat tulisan/isi konten web -->
+	<br><br>
+	<h2><font color="black"> Halaman Pencarian Data </font></h2>
+	<hr width="91%">
+
+	<br>
+
+	<!--digunakan untuk membuat form pencarian -->
+	<form name="formcari" onSubmit="cari()">
+  	<input class="search" name="keyword" type="text" placeholder="Cari..." required>	
+  	<input class="button" type="submit" value="Cari">		
+	</form>
+	<br><br><br><br>
+</div>
+
+<div class="footer"> <!--digunakan untuk membuat footer -->
+	<br>
+		<b> &copy </b> <font>&nbsp Andikha Arif EkaPutra - Universitas Ahmad Dahlan - <b> 2019 </b></font>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+.header{											/* digunakan untuk membuat header yang akan ditampilkan pada html*/
+	background-image: url(../img/hehe.jpg);			/* digunakan untuk memberikan background, disini background berupa gambar*/
+	background-repeat: no-repeat;					/* disini tidak dilakukan pengulangan background*/
+	background-size:100%;							/* ukuran background 100% */
+	background-position: center;					/* posisi background berada di tengah */
+	height: 220px;									/* tinggi background 220 px*/
+	width: 100%;									/* lebar background 100%*/
+	z-index:-1;										/* z-index digunakan untuk mengatur tumpukan elemen*/
+	font-family: Times New Roman;					/* merupakan jenis font*/
+}
+
+.menubar ul{							/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	background-color: black;			/* digunakan untuk memberi warna background*/
+	width: 98.8%;						/* lebar pada menubar adalah 98.8&*/
+	height: 60px;						/* tinggi pada menubar adalah 60px*/
+	margin: 0;							/* margin (pengatur jarak) adalah 0*/
+	padding: 0;							/* padding (ruang diantara konten/border) adalah 0*/
+	overflow: hidden;					/* overflow digunakan saat ada konten yang melebihi part elementnya*/
+	list-style-type: none;
+	position: absolute;
+	z-index:9999;						/* z-index digunakan untuk mengatur tumpukan elemen*/
+	margin-top: -60px;					/* margin top (pengatur jarak) adalah -60px*/
+}
+
+.menubar li{				/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	float: left;			/* float digunakan untuk mengatur letak element*/
+}
+
+.menubar li a{							/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	display: block;
+	text-align: center;					/* membuat posisi text berada di tengah*/
+	padding: 20px 15px;					/* padding (ruang diantara konten/border) adalah 20px 15px*/
+	text-decoration: none;
+	font-family: Times New Roman;		/* jenis font*/
+	color: white;
+}
+.menubar li a:hover{			/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	background-color: red;		/* digunakan untuk memberi warna background*/
+}
+
+.menubar li a:visited{		/* digunakan untuk membuat menubar yang akan ditampilkan pada html*/
+	color: white;			/* digunakan untuk mengatur warna*/			
+	z-index:9999;			/* z-index digunakan untuk mengatur tumpukan elemen*/
+}
+
+.menu2{								/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	background-color: white;		
+	opacity: 0.9;
+	width: 100%;
+	height: auto;
+	float: left;	
+}
+
+.menu2 h2{								/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	margin-left: 65px;
+	font-family: Times New Roman;
+}
+
+.menu2 p{								/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	margin-left: 65px;
+	font-family: Times New Roman;
+}
+
+.menu2 table{							/* digunakan untuk membuat menu/isi konten yang akan ditampilkan pada html*/
+	margin-left: 65px;
+}
+
+.content{
+	background-color: white;
+	text-align: center;
+	width: 90%;
+	margin-left: 65px;
+	font-size: 25px;
+}
+
+.footer{										/* digunakan untuk membuat footer yang akan ditampilkan pada html*/
+	background-image: url(../img/hehe.jpg);
+	opacity: 1;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	margin-bottom: 1px;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: -250px;
+	text-align: center;
+	margin-top: 30px;
+	color: black;
+	font-family: Times New Roman;
+}
